@@ -1,15 +1,18 @@
 {
   "private": true,
-  "author": "Joenix <joenix.com@gmail.com>",
+  "author": "Joenix",
   "scripts": {
-    "dev": "umi dev",
+    "start": "cross-env UMI_ENV=dev umi dev",
+    "start-sit": "cross-env UMI_ENV=sit umi dev",
     "build": "umi build",
+    "build-sit": "cross-env UMI_ENV=sit umi build",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "postinstall": "umi setup",
-    "setup": "umi setup",
-    "start": "npm run dev"
+    "setup": "umi setup"
   },
   "dependencies": {
     "antd-mobile": "^5.37.1",
+    "cross-env": "^7.0.3",
     "umi": "^4.3.17"
   },
   "devDependencies": {

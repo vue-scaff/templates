@@ -1,10 +1,26 @@
-.navs {
-  ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #f5f6f7 url(https://oss.vue-scaff.com/hero.svg) top / contain no-repeat;
+
+  main {
+    flex: 1;
   }
-  li {
-    margin-right: 1em;
+
+  .wrapper-bar {
+    background-color: white;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
   }
 }

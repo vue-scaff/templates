@@ -1,0 +1,6 @@
+{
+    "printWidth": 480,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "semi": false
+}

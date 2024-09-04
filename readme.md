@@ -1,3 +1,4 @@
-# vue-scaff-template
+# CFI Mobile Template
 
-templates store for vue-scaff
+- UmiJS
+- Ant-Design-Mobile
